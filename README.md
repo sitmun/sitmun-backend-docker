@@ -55,13 +55,20 @@
 
 ## Postgres-backed run
 
-In a terminal run:
+In a terminal you can run the development profile (with test data, admin:admin as user):
+
+```
+$ docker compose -f docker-compose-dev-postgres-9.3.yml up -d
+```
+The bootstrap is quick. Next, you can open your browser and navigate to localhost:8000 to the **Sitmun Admin App**.
+
+In a terminal you can run the production profile (without test data, admin:admin as user):
 
 ```
 $ docker compose -f docker-compose-dev-postgres-9.3.yml up -d
 ```
 
-The bootstrap is quick. Next, you can open your browser and navigate to localhost:8000 to the **Sitmun Admin App**.
+The bootstrap is quick. Next, you can open your browser and navigate to localhost:9000 to the **Sitmun Admin App**.
 
 ## Oracle-backed run
 
