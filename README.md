@@ -65,7 +65,7 @@ The bootstrap is quick. Next, you can open your browser and navigate to localhos
 In a terminal you can run the production profile (without test data, admin:admin as user):
 
 ```
-$ docker compose -f docker-compose-dev-postgres-9.3.yml up -d
+$ docker compose -f docker-compose-prod-postgres-9.3.yml up -d
 ```
 
 The bootstrap is quick. Next, you can open your browser and navigate to localhost:9000 to the **Sitmun Admin App**.
